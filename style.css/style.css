@@ -58,3 +58,49 @@
   border-left: 8px solid #0a22f4;
   margin-top: 150px;
 }
+header {
+  background-color: #0a22f4;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: fixed;
+ 
+}
+.sticky {
+  position: sticky;
+  background-color: aqua;
+  padding: auto;
+  
+}
+.article1 {
+  display: inline-block;
+  width: 30% ;
+  margin: 0 10px;
+  max-width: 100%; 
+  border-radius: 10px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  
+}
+article p {
+  background-color: #FFFFFF;
+  position: absolute;
+  
+
+}
+.article2 {
+  display: inline-block;
+  width: 30% ;
+  margin: 0 10px;
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  
+}
+.article3 {
+  display: inline-block;
+  width: 30%;
+  margin: 0 10px;
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
