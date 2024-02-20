@@ -60,47 +60,104 @@
 }
 header {
   background-color: #0a22f4;
+  background-size: 100% 308px;
   padding: 20px;
   margin-bottom: 20px;
   position: fixed;
- 
 }
 .sticky {
   position: sticky;
   background-color: aqua;
   padding: auto;
-  
 }
-.article1 {
-  display: inline-block;
-  width: 30% ;
-  margin: 0 10px;
-  max-width: 100%; 
-  border-radius: 10px;
-  margin-bottom: 100px;
-  margin-left: 100px;
-  
-}
-article p {
-  background-color: #FFFFFF;
-  position: absolute;
-  
 
+.section111 {
+  width: 100%;
+  background-color: #0a22f4;
 }
-.article2 {
-  display: inline-block;
-  width: 30% ;
-  margin: 0 10px;
-  max-width: 100%;
-  border-radius: 10px;
-  margin-bottom: 100px;
-  
+.h111 {
+  color: #ffffff;
+  font-family: font1;
+  padding-left: 240px;
+  padding-top: 70px;
+  position: relative;
+  padding-bottom: 200px;
 }
-.article3 {
+.img111 {
+  border-radius: 15px;
+  max-width: 463px;
+  max-height: 420px;
+}
+.img222 {
+  border-radius: 15px;
+  max-width: 463px;
+  max-height: 420px;
+}
+.img333 {
+  max-width: 463px;
+  border-radius: 15px;
+  max-height: 420px;
+}
+.article111 p {
+  max-width: 339px;
+  bottom: 0;
+  background-color: #ffffff;
+
+  border-radius: 12px;
+  position: absolute;
+  padding: 30px;
+  width: 95%;
+  left: 8%;
+  font-family: font2;
+}
+.article111 {
+  position: relative;
+  margin-left: 130px;
+  padding-top: 80px;
+}
+.article222 p {
+  max-width: 339px;
+  width: 95%;
+  background-color: #ffffff;
+  opacity: 0.8;
+  border-radius: 12px;
+  position: absolute;
+  left: 8%;
+  bottom: 0;
+  font-family: font2;
+  padding: 30px;
+}
+.article222 {
+  position: relative;
+  margin-left: 130px;
+}
+.article333 p {
+  max-width: 130px;
+  width: 95%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 8%;
+  padding: 30px;
+  font-family: font2;
+}
+.article333 {
+  position: relative;
+  margin-left: 130px;
+}
+.article111,
+.article222,
+.article333 {
   display: inline-block;
-  width: 30%;
-  margin: 0 10px;
-  max-width: 100%;
-  border-radius: 10px;
-  margin-bottom: 100px;
+  max-width: 463px;
+  width: 20%;
+}
+.bolo {
+  font-size: large;
+  font-weight: bold;
+  font-family: font1;
+  text-align: right;
+  padding-right: 256px;
+  padding-top: 80px;
 }
