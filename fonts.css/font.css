@@ -89,3 +89,10 @@
   font-family: font2;
   url("MYRIADPRO-CONDIT.woff") format("woff");
 }
+
+
+@font-face{
+font-family: "navi";
+src: url('../fonts/HelveticaNeueItalic.ttf');
+
+}
